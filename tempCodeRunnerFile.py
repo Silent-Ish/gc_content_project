@@ -1,1 +1,0 @@
-parser.add_argument("-i", "--input", help="Path to the input FASTA file", required=True)
