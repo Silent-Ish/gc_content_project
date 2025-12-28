@@ -39,13 +39,13 @@ cd gc_content_project
 Run the script from the terminal:
 python gc_calculator.py -i test_seq_timp_2_human.fasta
 
-
-### Optional Arguments 
-Flag|Name    |Description.                       |Default
--i  |--input |(Required) Path to input FASTA file|N/A
--w  |--window|Size of the sliding window (bp)    |20
--s  |--step  |Step size to move the window (bp)  |5
--o  |--output|Filename for the saved plot image  |gc_plot.png
+### Arguments
+| Flag | Name | Description | Default |
+| :--- | :--- | :--- | :--- |
+| `-i` | `--input` | **(Required)** Path to input FASTA file | N/A |
+| `-w` | `--window` | Size of the sliding window (bp) | 20 |
+| `-s` | `--step` | Step size to move the window (bp) | 5 |
+| `-o` | `--output` | Filename for the saved plot image | `gc_plot.png` |
 
 ### Author
 Ismael
